@@ -1,0 +1,16 @@
+$mycolor: red;
+
+h2 {
+    $mycolor: gray !global;
+    color: $mycolor;
+
+    font: {
+        family: Helvetica, sans-serif;
+        size: 30px;
+        weight: bold;
+    }
+}
+
+p {
+    color: $mycolor;
+}
